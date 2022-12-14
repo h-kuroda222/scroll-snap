@@ -8,7 +8,7 @@ export default function Home() {
       <div className={styles["vertical"]}>
         <VerticalScroll />
       </div>
-      <div>
+      <div className={styles["horizontal"]}>
         <HorizontalScroll />
       </div>
     </section>
