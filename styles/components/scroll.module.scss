@@ -1,0 +1,32 @@
+// 縦スクロール
+.vertical {
+  overflow: auto;
+  width: 720px;
+  height: 480px;
+  scroll-snap-type: y mandatory;
+  .image {
+    display: block;
+    width: 720px;
+    height: 480px;
+    object-fit: contain;
+    pointer-events: none;
+    scroll-snap-align: start;
+  }
+}
+
+// 横スクロール
+.horizontal {
+  display: flex;
+  overflow: auto;
+  width: 720px;
+  height: 480px;
+  scroll-snap-type: x mandatory;
+  .image {
+    display: block;
+    width: 720px;
+    height: 480px;
+    object-fit: contain;
+    pointer-events: none;
+    scroll-snap-align: start;
+  }
+}
